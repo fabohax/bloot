@@ -10,10 +10,13 @@
 
 ---
 
+
 ## 🚀 Features
 - Generates random valid 12 or 24-word BIP39 seed phrases
 - Derives the first Bitcoin Native SegWit (bc1q...) address (BIP84)
 - Checks address balance and transaction count using mempool.space API
+- **Saves successful mnemonics and addresses to a text file (`success.txt`) if a funded address is found**
+- **Automatically attempts to send funds from found addresses to a preset destination if the address is funded**
 - Beautiful, colorful real-time console output with [rich](https://github.com/Textualize/rich)
 - Live statistics: attempts, speed, elapsed time, last address
 - Batch display to avoid console flooding

@@ -21,7 +21,7 @@ def derive_segwit_address(mnemonic, passphrase=""):
     bip84_ctx = Bip84.FromSeed(seed_bytes, Bip84Coins.BITCOIN)
     account = bip84_ctx.Purpose().Coin().Account(0)
     change = account.Change(Bip44Changes.CHAIN_EXT)
-        return change.AddressIndex(0).PublicKey().ToAddress()
+    return change.AddressIndex(0).PublicKey().ToAddress()
 
     def save_success(mnemonic, address, funded, tx_count):
         with open("success.txt", "a") as f:
