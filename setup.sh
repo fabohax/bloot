@@ -5,4 +5,4 @@
 source "$(dirname "$0")/.venv/bin/activate"
 
 # Run the main.py script
-python main.py --words 12 --no-check-balance --batch 10
+python main.py --words 12 --check-balance --batch 1

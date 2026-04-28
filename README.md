@@ -46,10 +46,6 @@
 ---
 
 ## ▶️ Usage
-Run the bot with default settings:
-```bash
-python main.py
-```
 
 ### Command-Line Options
 - `--words 12|24`         : Number of BIP39 words (default: 12)
@@ -64,6 +60,13 @@ python main.py
 python main.py --words 24 --no-check-balance --batch 10
 ```
 
+or just:
+
+```bash
+setup.sh
+```
+
+
 ---
 
 ## ⚡ Performance & Realistic Expectations
@@ -75,7 +78,7 @@ python main.py --words 24 --no-check-balance --batch 10
 
 ## 🖼️ Example Output
 ```
-[FOUND] abandon abandon ... zoo -> bc1qxyz... | Balance: 0 sats | TXs: 0
+[FOUND] abandon castle ... zoo -> bc1qxyz... | Balance: 0 sats | TXs: 0
 Attempts: 100 | Speed: 1.23/s | Elapsed: 81.2s | Last: bc1qxyz...
 ```
 - Funded addresses are highlighted in green.
