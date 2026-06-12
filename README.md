@@ -35,8 +35,8 @@
 ## 🛠️ Installation
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourusername/bitcoin-loot.git
-   cd bitcoin-loot
+   git clone https://github.com/fabohax/bloot.git
+   cd bloot
    ```
 2. **Install dependencies:**
    ```bash
